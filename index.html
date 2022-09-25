@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220926001042">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a href="" class="header__logo">Oyindamola</a>
+				<div class="header__menu menu">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="#" data-goto=".home" class="menu__link">About me</a></li>
+							<li class="menu__item"><a href="#" data-goto=".specialty" class="menu__link">Services</a></li>
+							<li class="menu__item"><a href="#" data-goto=".form" class="menu__link">Contact me</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<div class="__container">
+				<section class="home">
+					<div class="home__body">
+						<div class="home__info">
+							<div class="home__title">Hi, I am<br>Oyindamola Bakare</div>
+							<div class="home__sub-title">Frontend Developer</div>
+							<a href="#" class="button">Download CV</a>
+							<a href="#" class="button">Learn More</a>
+						</div>
+						<div class="home__image">
+							<picture><source srcset="img/photo.webp" type="image/webp"><img src="img/photo.png" alt="main photo"></picture>
+						</div>
+					</div>
+				</section>
+				<section class="about-me">
+					<div class="about-me__info">
+						<div class="about-me__title">About</div>
+						<div class="about-me__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+							eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+							exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+							reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+							occaecat cupidatat non proident</div>
+					</div>
+					<div class="about-me__contacts">
+						<a href="#" class="item">
+							<img src="img/ellipse.svg" alt="item img">
+							<div class="item__title">Full Name</div>
+							<div class="item__sub-title">Your name goes here</div>
+						</a>
+						<a href="#" class="item">
+							<img src="img/ellipse.svg" alt="item img">
+							<div class="item__title">Email Address</div>
+							<div class="item__sub-title">Your email goes here</div>
+						</a>
+						<a href="#" class="item">
+							<img src="img/ellipse.svg" alt="item img">
+							<div class="item__title">Twitter</div>
+							<div class="item__sub-title">Your twitter goes here</div>
+						</a>
+						<a href="#" class="item">
+							<img src="img/ellipse.svg" alt="item img">
+							<div class="item__title">Phone</div>
+							<div class="item__sub-title">Your phone goes here</div>
+						</a>
+					</div>
+				</section>
+				<section class="specialty">
+					<div class="specialty__title">What i do</div>
+					<div class="specialty__cards">
+						<div class="specialty__card card-1">
+							<img src="img/software.svg" alt="card img">
+							<div class="specialty__name">Software<br>Development</div>
+						</div>
+						<div class="specialty__card card-2">
+							<img src="img/web-dev.svg" alt="card img">
+							<div class="specialty__name">Web<br>Development</div>
+						</div>
+						<div class="specialty__card card-3">
+							<img src="img/web-design.svg" alt="card img">
+							<div class="specialty__name">Web<br>Design</div>
+						</div>
+					</div>
+				</section>
+				<section class="my-skills">
+					<div class="my-skills__title">My Skills</div>
+					<div class="my-skills__percentages">
+						<div class="my-skill html">
+							<div class="procent">50%</div>
+							<div class="lang">html</div>
+						</div>
+						<div class="my-skill css">
+							<div class="procent">20%</div>
+							<div class="lang">css</div>
+						</div>
+						<div class="my-skill js">
+							<div class="procent">10%</div>
+							<div class="lang">javascript</div>
+						</div>
+						<div class="my-skill php">
+							<div class="procent">2%</div>
+							<div class="lang">php</div>
+						</div>
+					</div>
+				</section>
+				<section class="form">
+					<div class="form__title">Get in touch</div>
+					<form action="#" method="post">
+						<div class="form__input">
+							<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Name" class="input">
+							<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Last name" class="input">
+							<input autocomplete="off" type="email" name="form[]" data-error="Ошибка" placeholder="Email" class="input">
+							<input autocomplete="off" type="tel" name="form[]" data-error="Ошибка" placeholder="Phone number" class="input">
+						</div>
+						<textarea name="message" id="area" cols="30" placeholder="Message" rows="5"></textarea>
+						<button type="submit" class="button form__btn">Submit now</button>
+					</form>
+				</section>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<a href="@" class="copyraite">© Oyindamola 2020</a>
+			</div>
+		</footer>
+	</div>
+	<!-- <div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+				Text
+			</div>
+		</div>
+	</div>
+</div> -->
+	<script src="js/app.min.js?_v=20220926001042"></script>
+</body>
+
+</html>
